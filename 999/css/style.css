@@ -1,0 +1,131 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+body
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh;
+    background: #232323;
+}
+div.titlebox
+{
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    right: 30%;
+    width: auto;
+    word-wrap: break-word;
+}
+div.titlebox p
+{
+    color: #c4bdbd;
+    top: 0;
+    padding-top: 15px;
+    left: 0;
+    right: 0;
+}
+div.titlebox p.toptitle
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+div.titlebox p.line::after
+{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 70px;
+    background: rgb(121, 112, 112);
+    width: 100%;
+    height: 2px;
+}
+div.titlebox div.toptitle-left
+{
+    position: absolute;
+    top: 75px;
+    padding-left: 1%;
+    color: #c4bdbd;
+    font-size: 3px;
+}
+div.titlebox div.toptitle-left a
+{
+    color: yellow;
+    text-decoration:none;
+}
+div.titlebox div.toptitle-left a:hover
+{
+    color: rgb(175, 173, 57);
+    text-decoration:underline;
+}
+div.titlebox div.toptitle-right
+{
+    position: absolute;
+    top: 75px;
+    right: 0;
+    padding-right: 1%;
+    font-size: 3px;
+}
+div.titlebox div.toptitle-right a
+{
+    color: yellow;
+    text-decoration: none;
+}
+div.titlebox div.toptitle-right a:hover
+{
+    color: rgb(175, 173, 57);
+    text-decoration: underline;
+}
+div.contentbox
+{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    right: 30%;
+    width: auto;
+    word-wrap: break-word;
+}
+div.contentbox p
+{
+    color: #c4bdbd;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+div.contentbox p a
+{
+    color: rgb(61, 52, 189);
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 1%;
+}
+div.contentbox p a:hover
+{
+    color: rgb(89, 123, 233);
+    text-decoration: underline;
+}
+div.contentbox p.a1
+{
+    font-size: 25px;
+}
+div.contentbox p.a2
+{
+    position: relative;
+}
+div.contentbox p.a3
+{
+    position: relative;
+    top: 5px;
+
+}
